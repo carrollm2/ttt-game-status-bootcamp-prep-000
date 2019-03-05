@@ -60,7 +60,6 @@ end
 
 def winner(board)
   winning_combination = won?(board)
-  #if won?(board)
   if winning_combination
     return board[winning_combination[0]]
   else
